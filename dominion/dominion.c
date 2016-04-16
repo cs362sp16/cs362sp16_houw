@@ -680,8 +680,7 @@ void _cardEffect_village(int currentPlayer, struct gameState* state, int handPos
       discardCard(handPos, currentPlayer, state, 0);
 }
 void _cardEffect_great_hall(int currentPlayer,struct gameState* state, int handPos){
-	//+1 Card
-      drawCard(currentPlayer, state);
+	
 			
       //+1 Actions
       state->numActions++;
@@ -706,7 +705,7 @@ void _cardEffect_minion (int currentPlayer, struct gameState*  state, int handPo
       else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
 	{
 	  //discard hand
-	  while(numHandCards(state) > 0)
+	  while(numHandCards(state) > 1)
 	    {
 	      discardCard(handPos, currentPlayer, state, 0);
 	    }
