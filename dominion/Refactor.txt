@@ -1,0 +1,6 @@
+Refactor Card:
+	1. councilroom in function _cardEffect_coincilroom ()
+	2. smithty in function _cardEffect_smithty ()
+	3. village in function _cardEffect_village ()
+	4. great wall in function _cardEffect_great_wall ()
+	5. minion in function _cardEffect_minion ()
