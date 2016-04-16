@@ -642,6 +642,8 @@ int getCost(int cardNumber)
 	
   return -1;
 }
+
+//Refactor functions
 void _cardEffect_councilroom (int currentPlayer, struct gameState* state, int handPos){
 	int i;
 	//+4 cards
