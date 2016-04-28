@@ -659,7 +659,7 @@ void _cardEffect_councilroom (int currentPlayer, struct gameState* state, int ha
 	// put played card in played card pile 
 	discardCard(handPos, currentPlayer, state, 0);
 }
-void _cardEffect_smithty (int currentPlayer, struct gameState* state, int handPos){
+void _cardEffect_smithy (int currentPlayer, struct gameState* state, int handPos){
 	int i;
 	//+3 Cards
 	for (i = 0; i < 3; i++){
@@ -937,7 +937,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);*/
-	  _cardEffect_smithty(currentPlayer, state, handPos);
+	  _cardEffect_smithy(currentPlayer, state, handPos);
       return 0;
 		
     case village:
