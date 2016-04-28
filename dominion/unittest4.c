@@ -14,9 +14,9 @@ int main() {
 	CardTest = newGame();
 	int Kingdom_Card[10] = { adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy };
 	initializeGame(PlayerNum, Kingdom_Card, 1, CardTest);
-	printf("Test Start------------------Unit Test 4 ---test updateCoins() \n");
+	printf("Test Start------------------Unit Test 4 ---test drawCard() \n");
 	assertTrue_updateCoins(CardTest);
-	printf("Test End--------------------Unit Test 4 ---test updateCoins() \n");
+	printf("Test End--------------------Unit Test 4 ---test drawCard() \n");
 	return 0;
 }
 
