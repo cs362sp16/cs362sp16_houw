@@ -1,0 +1,14 @@
+Unit Tests:
+	all tested functions works well
+	
+Card Tests: 
+	One bug in the cardEffect() function
+		When a card effect requires the player to discard another cards in his/her hand, the function will replace discarded card with 
+		the card in the index. If the played card is in the last index, it will be moved to another index. The discard function for the 
+		played card will not work because the played card's index passed to cardEffect() is a bad index. As a result, the played card will
+		not be moved to the playedCard.
+		
+Conclusion:
+	Yy unit tests worked well as the rule expected. Unit tests for choose functions did not find any bug, but unit tests for the card effect 
+	functions find a logic bug. This bug does not come from midunderstanding of game rules, but from the lack of index track for hand cards. 
+    To fix that, the game shoud keep tracking card rather than the card index.  	
