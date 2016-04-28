@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import os 
+
+os.system('make unit1')
+os.system('make unit2')
+os.system('make unit3')
+os.system('make unit4')
+os.system('make card1')
+os.system('make card2')
+os.system('make card3')
+os.system('make card4')
+os.system('make all_tests')
