@@ -11,7 +11,7 @@ Card Tests:
 Conclusion:
 	My unit tests worked well as the rule expected. Unit tests for choose functions did not find any bug, but unit tests for the card effect 
 	functions find a logic bug. This bug does not come from midunderstanding of game rules, but from the lack of index track for hand cards. 
-    To fix that, the game shoud keep tracking card rather than the card index. 
+    	To fix that, the game shoud keep tracking card rather than the card index. 
     	The gcov command shows that "Lines executed:16.40% of 561". 
 	The 'dominion.c.gcov' file:
 		1. The KindomCards and the initializeGame function is executed but need more tests. 
