@@ -29,6 +29,7 @@ void assertTrue_salvager(struct gameState *CardTest) {
 	CardTest->coins = 0;
 	printf("Case:           whoseTurn = 0, handCount[0] = 5,  hand[0][4] = salvagr, hand[0][1]= concil_room\n");
 	printf("Correct Result: played card is 1, player hand count is 3 (5-1-1), coins = 5 (0+5)\n");
+	cardEffect(salvager, 1, 0, 0, CardTest, 4, 0);
 	if (CardTest->playedCardCount == 1
 		&& CardTest->playedCards[0] == salvager
 		&& CardTest->handCount[player] == 3
