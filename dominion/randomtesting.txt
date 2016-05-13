@@ -1,0 +1,70 @@
+Random Test Development:
+
+	Before writing random test generators, I checked the source codes in dominion.c first. 
+		Adventurer:
+		
+			To test the card effect of the adventurer, I mainly checkeds treasure card in the player's hand.
+		Furthoermore, I chose to check the player's deck count to ensure the correctness. I found that the deck
+		count is hard to check becuase the deck will be rebuilt when the deck is empty and the player does not 
+		get enough treasure cards. So I ignore that. At the end, I checked the player's hand count to make sure
+		that the plauer only get two treasure cards
+			The player's hand count, deck count, discard count, hand cards, deck cards , and discard cards are all
+		randomly generated. However, I choose to manully add two treasure cards in the deck to prevent the 
+		infinity loop.
+		
+		Smithy:
+		
+			Since the Smithy card effect is to let the player to draw three cards, I only need to check the player's 
+		hand count and the player's deck count. 
+			The player's hand count, deck count, discard count, hand cards, deck cards , and discard cards are all
+		randomly generated. 	
+		
+		Steward:
+		
+			The card effects of the card Steward allow the player to choose three actions. The first choice is to 
+		draw two cards; the second choice is to get two bonus coins; the third choice is to trash two cards from 
+		the player's hand. So, I randomly made choice option and trash cards' handpos to make test the correctness
+		of the target function. 
+			The player's hand count, deck count, discard count, hand cards, deck cards , and discard cards are all
+		randomly generated.
+	
+		For all random tests, I choose to test discard counts and deck count to make sure that the player only get
+	cards from deck and discard cards go to the right place.
+	
+	During random tests:
+		
+		I found that the discard count and deck card count in adventurer random test is hard to test. I also found 
+	that check on discard is necessary becuase my task was to test the card effect but not the discard
+	function. So, I removed those tests. 
+
+Rand Test Result:
+	Adventurer:
+	
+		The statement coverage of the adventurer card effect was 100%, which means that all branches were covered. 
+	However, the test result shows that it was a bug there. The player's hand count returned was wrong. 
+		Since the card effect is very simple, it took less than 1 s to achieve 100% coverage.
+
+	Smithy:
+	
+		The statement coverage of the smithy card effect was 100%, which means that all branches were covered. No
+	bug was found.	
+		Since the card effect is very simple, it took less than 1 s to achieve 100% coverage.
+	
+	Stewad:
+	
+		The statement coverage of the steward card effect was 100%, which means that all branches were covered. No
+	bug was found.
+		Since the card effect is very simple, it took less than 1 s to achieve 100% coverage.
+		
+Random Test Conclusion:
+		Since all three cards in my random tests were tested in previous unit tests. So, I got a large amount of 
+	instances to analyze pros and cons of these two different tests. Based on my experience, random tests do better
+	on finding debuggers and achieving higher statement coverage for complex situations. Howvever, random tests are 
+	bad choice for small and simple functions becuase unit tests can easily check all codes and all branches. 
+		So, programmers should choose test methods wisdomly to achieve the best statement coverage with minimum effors.
+		
+		
+		
+		
+		
+	
