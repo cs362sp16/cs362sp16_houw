@@ -1,84 +1,5 @@
 Take fixed seed
-deck_count 26
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 0
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: The deck is initialized as emoty state
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 14
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 7
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 8
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 24
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 12
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 10
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 0
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: The deck is initialized as emoty state
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 2
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 14
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 2
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 28
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 23
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 12
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 5
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 3
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 0
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: The deck is initialized as emoty state
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 5
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 18
+deck_count 9
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
@@ -86,107 +7,7 @@ deck_count 15
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
-deck_count 29
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 26
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 3
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 29
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 1
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 11
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 22
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 1
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 28
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 18
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 20
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 7
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 12
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 13
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 24
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 1
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 3
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 18
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 10
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 29
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 22
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 23
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 14
-RDT-adventurer: Fail------Cannot get two treasure cards
-RDT-adventurer: Success---Get right hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 19
-RDT-adventurer: Fail------Cannot get two treasure cards
-RDT-adventurer: Success---Get right hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 10
-RDT-adventurer: Success---Get two treasure cards
-RDT-adventurer: Fail------Get wrong hand count
-RDT-adventurer: Fail------Get wrong played card count
-deck_count 3
+deck_count 16
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
@@ -194,7 +15,116 @@ deck_count 27
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
+deck_count 0
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: The deck is initialized as emoty state
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 22
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 11
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 16
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 20
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 21
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 1
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 17
+RDT-adventurer: Fail------Cannot get two treasure cards
+RDT-adventurer: Success---Get right hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 7
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 21
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 16
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 26
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 21
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 4
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 4
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 11
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
 deck_count 29
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 18
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 26
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 28
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 2
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 21
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 17
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 12
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 21
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
@@ -202,7 +132,233 @@ deck_count 22
 RDT-adventurer: Success---Get two treasure cards
 RDT-adventurer: Fail------Get wrong hand count
 RDT-adventurer: Fail------Get wrong played card count
+deck_count 8
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 10
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 8
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 1
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 29
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 10
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 11
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 2
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 16
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 13
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 1
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 0
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: The deck is initialized as emoty state
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 12
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 3
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+deck_count 12
+RDT-adventurer: Success---Get two treasure cards
+RDT-adventurer: Fail------Get wrong hand count
+RDT-adventurer: Fail------Get wrong played card count
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:10.53% of 209
+Branches executed:20.23% of 173
+Taken at least once:8.09% of 173
+Calls executed:5.56% of 54
+
+Function '_cardEffect_minion'
+Lines executed:0.00% of 18
+Branches executed:0.00% of 18
+Taken at least once:0.00% of 18
+Calls executed:0.00% of 6
+
+Function '_cardEffect_great_hall'
+Lines executed:0.00% of 4
+No branches
+Calls executed:0.00% of 1
+
+Function '_cardEffect_village'
+Lines executed:0.00% of 5
+No branches
+Calls executed:0.00% of 2
+
+Function '_cardEffect_smithy'
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
+
+Function '_cardEffect_councilroom'
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 3
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:100.00% of 22
+Branches executed:100.00% of 6
+Taken at least once:100.00% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:100.00% of 16
+Branches executed:100.00% of 8
+Taken at least once:100.00% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:83.87% of 62
+Branches executed:95.65% of 46
+Taken at least once:78.26% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:100.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+No calls
+
 File 'dominion.c'
 Lines executed:23.53% of 561
+Branches executed:25.30% of 415
+Taken at least once:17.83% of 415
+Calls executed:11.70% of 94
 Creating 'dominion.c.gcov'
 

@@ -1,13 +1,6 @@
 Take fixed seed
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
@@ -22,9 +15,13 @@ RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
@@ -36,6 +33,11 @@ RDT-steward: Success---discard count correct
 RDT-steward: Choice 2
 RDT-steward: Success---Get two more coins
 RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
@@ -57,16 +59,6 @@ RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
 RDT-steward: Choice 1
 RDT-steward: Success---Get two more cards
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
@@ -96,66 +88,6 @@ RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 1
-RDT-steward: Success---Get two more cards
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
 RDT-steward: Choice 2
 RDT-steward: Success---Get two more coins
 RDT-steward: Success---hand count correct
@@ -172,11 +104,6 @@ RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
 RDT-steward: Choice 1
 RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
@@ -187,14 +114,8 @@ RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
-RDT-steward: Choice 2
-RDT-steward: Success---Get two more coins
-RDT-steward: Success---hand count correct
-RDT-steward: Success---Deck count correct
-RDT-adventurer: Success---Get right played card count
-RDT-steward: Success---discard count correct
-RDT-steward: Choice 3
-RDT-steward: Success---hand count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
@@ -230,6 +151,16 @@ RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
+RDT-steward: Choice 3
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 3
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
 RDT-steward: Choice 2
 RDT-steward: Success---Get two more coins
 RDT-steward: Success---hand count correct
@@ -247,7 +178,45 @@ RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
 RDT-steward: Choice 3
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 3
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 3
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
 RDT-steward: Success---hand count correct
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
@@ -263,12 +232,198 @@ RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
 RDT-steward: Choice 1
 RDT-steward: Success---Get two more cards
 RDT-steward: Success---Deck count correct
 RDT-adventurer: Success---Get right played card count
 RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 2
+RDT-steward: Success---Get two more coins
+RDT-steward: Success---hand count correct
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+RDT-steward: Choice 1
+RDT-steward: Success---Get two more cards
+RDT-steward: Success---Deck count correct
+RDT-adventurer: Success---Get right played card count
+RDT-steward: Success---discard count correct
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:92.31% of 13
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+No calls
+
+Function 'cardEffect'
+Lines executed:8.13% of 209
+Branches executed:15.61% of 173
+Taken at least once:3.47% of 173
+Calls executed:11.11% of 54
+
+Function '_cardEffect_minion'
+Lines executed:0.00% of 18
+Branches executed:0.00% of 18
+Taken at least once:0.00% of 18
+Calls executed:0.00% of 6
+
+Function '_cardEffect_great_hall'
+Lines executed:0.00% of 4
+No branches
+Calls executed:0.00% of 1
+
+Function '_cardEffect_village'
+Lines executed:0.00% of 5
+No branches
+Calls executed:0.00% of 2
+
+Function '_cardEffect_smithy'
+Lines executed:0.00% of 5
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 2
+
+Function '_cardEffect_councilroom'
+Lines executed:0.00% of 8
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 3
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:36.36% of 22
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+Calls executed:0.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:83.87% of 62
+Branches executed:95.65% of 46
+Taken at least once:78.26% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:100.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
 File 'dominion.c'
 Lines executed:21.93% of 561
+Branches executed:23.86% of 415
+Taken at least once:15.42% of 415
+Calls executed:13.83% of 94
 Creating 'dominion.c.gcov'
 
