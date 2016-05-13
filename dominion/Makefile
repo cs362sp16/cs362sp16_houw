@@ -50,15 +50,15 @@ rand2:
 
 out_rand:
 	./randomtestadventurer >> randomtestadventurer.out
-	gcov dominion.c >> randomtestadventurer.out
+	gcov -f -b dominion.c >> randomtestadventurer.out
 	
 out_rand1:
 	./randomtestcard1 >> randomtestcard1.out
-	gcov dominion.c >> randomtestcard1.out
+	gcov -f -b dominion.c >> randomtestcard1.out
 	
 out_rand2:
 	./randomtestcard2 >> randomtestcard2.out
-	gcov dominion.c >> randomtestcard2.out
+	gcov -f -b dominion.c >> randomtestcard2.out
 	
 all_tests:
 	./unittest1 >> unittestresult.out
