@@ -14,11 +14,11 @@ subprocess.call('make clean testdominion', shell=True, stdout=null, stderr=null,
 subprocess.call('make clean testdominion', shell=True, stdout=null, stderr=null, cwd=sys.argv[2]);
 
 
-tdout1 = open(sys.argv[1] + '/testdominion.out', 'w+');
-tdout2 = open(sys.argv[2] + '/testdominion.out', 'w+');
+testout1 = open(sys.argv[1] + '/testdominion.out', 'w+');
+testout2 = open(sys.argv[2] + '/testdominion.out', 'w+');
 
-subprocess.call('./testdominion ' + sys.argv[3] + ' >> testdominion.out', shell=True, stdout=tdout1, stderr=tdout1, cwd=sys.argv[1]);
-subprocess.call('./testdominion ' + sys.argv[3] + ' >> testdominion.out', shell=True, stdout=tdout2, stderr=tdout2, cwd=sys.argv[2]);
+subprocess.call('./testdominion ' + sys.argv[3] + ' >> testdominion.out', shell=True, stdout=testout1, stderr=testout1, cwd=sys.argv[1]);
+subprocess.call('./testdominion ' + sys.argv[3] + ' >> testdominion.out', shell=True, stdout=testout2, stderr=testout2, cwd=sys.argv[2]);
 
 filepath = sup + '/diffdominion.out'
 diffdominion = open(filepath, 'w');
