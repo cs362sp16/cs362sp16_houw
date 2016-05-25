@@ -7,14 +7,10 @@ are lots of cases that the tester cannot handle or generate. Furthermore, some i
 cannot tested such as, numActions, numBuys, players' hand, and so on. I also fix the bug of case feast in 
 the cardEffect function 
 
-	When doing the diff job with my partner, I always get failed from the script. I check our source code 
-and found that our printed info is totally different. Since I use diff to compare the tester's output, it is
-not strange to get Fail from the script. I also noticed that the rand function in our source code is another
-attribute causing Fail result because rand will generate different choices for robots. It is not easy to tell
-whose tester is correct or better. Finally, my tester runs rand tests for 20 times, but my parter's runs 1000
-times. No doubt that differences is in output files.  
-	Both of our testers get good code coverage that are over 80%. We also have the same play style: acton->buy
-->end. We also use rand functions to generate player_num, kingdom-card, play_card, buy_card, and other random 
-features. However, we get different methods for generate choices for play_card. I randomly generate correct 
-choices for each action card based on its effect, but my partner does ont consider the correctness of each action
-card.  
+	When doing the diff job with my partner, I sometimes get fail results from tests. I first check the code
+coverage, and it shows that both our dominion.c get over 80% coverage. I am thinking that it could be someting 
+wrong with my random test generator. After fully check my testdominion.c, I found several bugs and fixed them. I 
+still get some fail cases. After checking the original dominion.c in Alex's repo and previous assignments, I 
+found that we were required to make some bugs in dominion.c. Since we made bug indenpendently, bugs may be different,
+and the test results are get affected. either. No evident shows whose dominion.c is better because both of our copies
+have bugs and the code coverages of our code is similar that is approximately 80%.  
