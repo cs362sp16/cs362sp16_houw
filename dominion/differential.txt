@@ -1,4 +1,4 @@
-Test Conclusion:
+Test Conclusion: (Partener: Zhi Jiang)
 
 	My tester does a great job on coving dominion.c. My tester runs a random game for 20 times, and the 
 coverage of dominion.c is over 80%.
