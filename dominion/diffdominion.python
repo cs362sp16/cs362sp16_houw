@@ -1,0 +1,38 @@
+import subprocess
+import sys
+import os
+null = open('/dev/null', 'w');
+
+if not len(sys.argv) == 4:
+	print 'Usage: python diffdominion.py <directory 1> <directory 2> <random seed>'
+	exit()
+
+print 'This python script will execute testdominion.c in two different directories, and generate the diff file'
+sup = os.getcwd()
+	
+subprocess.call('mv testdominion.c testdominion.c.org', shell=True, stdout=null, cwd=sys.argv[2]);
+subprocess.call('cp ' + sys.argv[1] + '/testdominion.c ' + sys.argv[2] + '/testdominion.c', shell=True, stdout=null);
+
+subprocess.call('make clean testdominion', shell=True, stdout=null, stderr=null, cwd=sys.argv[1]);
+subprocess.call('make clean testdominion', shell=True, stdout=null, stderr=null, cwd=sys.argv[2]);
+
+
+tdout1 = open(sys.argv[1] + '/testdominion.out', 'w+');
+tdout2 = open(sys.argv[2] + '/testdominion.out', 'w+');
+
+subprocess.call('./testdominion ' + sys.argv[3] + ' | grep "test:"', shell=True, stdout=tdout1, stderr=tdout1, cwd=sys.argv[1]);
+subprocess.call('./testdominion ' + sys.argv[3] + ' | grep "test:"', shell=True, stdout=tdout2, stderr=tdout2, cwd=sys.argv[2]);
+
+
+subprocess.call('rm -f testdominion.c', shell=True, stdout=null, cwd=sys.argv[2]);
+subprocess.call('mv testdominion.c.org testdominion.c', shell=True, stdout=null, cwd=sys.argv[2]);
+
+
+filepath = sup + '/diffdominion.out'
+diffdominion = open(filepath, 'w');
+
+subprocess.call('diff ' + sys.argv[1] + '/testdominion.out ' + sys.argv[2] + '/testdominion.out', stdout=diffdominion, stderr=diffdominion, shell=True);
+
+print ''
+
+print 'TEST PASEED' if diffdominion.tell() == 0 else 'TEST FAILED'
