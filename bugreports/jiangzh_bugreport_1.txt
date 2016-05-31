@@ -1,0 +1,6 @@
+One detected bug in card  "Village_function" :
+		Both my unit tester and random tester for card effect village show that the numActions is not correct
+	after the village card is played. Results tells that the numActions is one more than the correct result. I
+	checked your village_function and found that  
+									your statement is  "state->numActions = state->numActions + 3;"
+									correct statement is "state->numActions = state->numActions + 2;"
