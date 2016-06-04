@@ -1,0 +1,9 @@
+One detected bug in card  "councilroom_function" :
+		Both my unit tester and random tester for card effect concil room show that the handcount is not correct
+	after the councilroom card is played. The player should draw 4 cards, but your card effect only let the player
+	draw 3 cards. 
+									your statement is  "	for(i=0; i<3; i++)
+															drawCard(currentPlayer, state);		"
+						 
+						 correct statement should be  "	for(i=0; i<4; i++)
+															drawCard(currentPlayer, state);		"

@@ -1,0 +1,19 @@
+Test Conclusion: (Partener: Zhi Jiang)
+
+	My tester does a great job on coving dominion.c. My tester runs a random game for 20 times, and the 
+coverage of dominion.c is over 80%.
+	However, I found that the random test generator cannot meet all possible situations of the game. There
+are lots of cases that the tester cannot handle or generate. Furthermore, some inner varibales of the game
+cannot tested such as, numActions, numBuys, players' hand, and so on. I also fix the bug of case feast in 
+the cardEffect function 
+
+	When doing the diff job with my partner, I sometimes get fail results from tests. I first check the code
+coverage, and it shows that both our dominion.c get over 80% coverage. I am thinking that it could be someting 
+wrong with my random test generator. After fully check my testdominion.c, I found several bugs and fixed them. I 
+still get some fail cases. After checking the original dominion.c in Alex's repo and previous assignments, I 
+found that we were required to make some bugs in dominion.c. Since we made bug indenpendently, bugs may be different,
+and the test results are get affected. either. No evident shows whose dominion.c is better because both of our copies
+have bugs and the code coverages of our code is similar that is approximately 80%. It may not be an ideal differential
+test becasue bugs in our dominion are randomly generated. The test has hard time indentifing which bugs cause errors. 
+Also, it is a random test generator and cannot cover all possible cases. This fact is proved by the test coverages. If
+there is a bug in uncovered code, the test generator cannot find it. 
