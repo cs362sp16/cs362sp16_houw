@@ -6,8 +6,8 @@ Debugging Report with GDB:
 		card. The test results showed that the player did not get right hand count.
 		
 		b. Debugging Procedures
-			Before debugged the dominion.c, I first thought about where the bug come from. I came up with two assumptions:
-			Gmae Initialization Error and Card Effect Error.
+		   Before debugged the dominion.c, I first thought about where the bug come from. I came up with two assumptions:
+		Gmae Initialization Error and Card Effect Error.
 			
 			1. Debug Game Initialization
 				Since only the player's hand count showed error, I set up two break points before the CardEffect fucntion.
@@ -27,33 +27,67 @@ Debugging Report with GDB:
 			card from the player's hand. I added the discard function and the random test passed for thousands of time. 
 		
 		c. Related Agan's Rules
-				Rule#2 "Make it Fail"
-					I only focus on the CardEffect but ignore other details. I should consider all possible failure factors,
+			Rule#1 "Understand the System"
+				I fully read the card effect of the card adventurer to understand the program's actions in cardEffect. 
+		
+			Rule#2 "Make it Fail"
+				I only focus on the CardEffect but ignore other details. I should consider all possible failure factors.
 				
-				Rule#5 "Change One Thing at a Time"
-					I break possible failure cases into different parts to debug (initializeGame () and cardeffect()). This 
-				fact reduces the debug time and make debugging easier more specfic.
+			Rule#5 "Change One Thing at a Time"
+				I break possible failure cases into different parts to debug (initializeGame () and cardeffect()). This fact reduces 
+			the debug time and make debugging easier and more efficient.
 
-				Rule#8 "Get a Fresh View"
-					I did not give up when I cannot localize the bug. I changed my debugging view (from hand count to actul hand
-				cards). This trick helped me to find the bug.
+			Rule#8 "Get a Fresh View"
+				I did not give up when I cannot localize the bug. I changed my debugging view (from hand count to actul hand cards). 
+			This trick helped me to find the bug.
 
-				
-				
-	II. Second Bug (_cardEffect_greate hall() Function)
+			Rule#9 "If You Didn't Fix It, It Ain't Fixed"
+				When I found the bug, I fixed it immediately. Then, I did another tests to check the fixed program to make sure that my 
+			solution worked well.
+	
+
+	
+	II. Second Bug (_cardEffect_great_hall() Function)
 		a. Found bug by jiangzh
 			This bug was found by one of my group member, Zhi Jiang. According to his bug report, the player's hand count was wrong
 		after played the card great hall.
 		
 		b. Debugging Procedures
-			I choose the same debugging strategies that I used in debugging the adventurer card. 
+		   I choose the same debugging strategies that I used in debugging the adventurer card. 
 			
 			1. Debugging Game Initialization
 				Same procedures in section I.b.1. I found no bug here.
 				
 			2. Debugging Card Effect 
-				In this debugging session, I set two break points
+				In this debugging session, I used my testdominion.c and dominion.c as work targets. I went to the cardEffect () 's great
+			hall case to set two break points in line 1017 and line 1019. I inspected the player's hand and hand count for two times. I 
+			found that the player did not draw any new card after the card great_hall was played. Then, I checked my _cardEffect_great_hall
+			function for more details about the the program's behaviors when the card great_hall was played. I compared the card  effects 
+			of great_hall with the parogram actions in _cardEffect_great_hall() line by line. I found that the _cardEffect_great_hall function
+			did not perform any draw card action. The bug was found.
+				To fix this bug, I added a drawcard() function in the function _cardEffect_great_hall () before changing the action phase number.
+				The next thing I did was to check whether the bug is solved or not. I added several contional asserts in my testdominion.c to 
+			examine the card effect of greate hall. All attributes of the player were correct including, hand card, hand count, and deck count.
+			
+		c. Related Agan's Rules
+			Rule#1 "Understand the System"
+				When I debugged _cardEffect_great_hall (), the knowledge of the card effect of great hall helped me to identify what the card effect
+			function missed. Thus, I can localize the bug and fixed it.
+			
+			Rule#4 "Divide and Conquer"
+				When I was debugging the card effect, I started from the general CardEffect function in dominion.c and narrowed dwon to case great hall.
+			Finially, I reached the target function _cardEffect_great_hall () to localize the bug.
+			
+			Rule#5 "Check One Thing at a Time"
+				I break possible failure cases into different parts to debug (initializeGame () ann cardeffect). This fact reduces 
+			the debug time and make debugging easier and more efficient.
+			
+			Rule#9 "If You Didn't Fix It, It Ain't Fixed"
+				When I found the bug, I fixed it immediately. Then, I did another tests to check the fixed program to make sure that my 
+			solution worked well.
 				
+	
+	
 				
 				
 			
