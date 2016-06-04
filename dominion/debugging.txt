@@ -1,0 +1,39 @@
+Debugging Report with GDB:
+	1. First Bug
+		a. Found a bug in CardEffect function adventurer section:
+			When I wrote random test of the adventurer card, I only checked the card effect that allows the player to 
+		reveal two trueature cards from the player deck. To test that, I checked playe's hand count and player's hand 
+		card. The test results showed that the player did not get right hand count.
+		
+		b. Debugging Procedures
+			Before debugged the dominion.c, I first thought about where the bug come from. I came up with two assumptions:
+			Gmae Initialization Error and Card Effect Error.
+			
+			1) Debug Game Initialization Error
+				Since only the player's hand count showed error, I set up two break points before the CardEffect fucntion.
+			One is after the function initializeGame() in line 42 of randomtestadventurer.c; another one is after I randomly 
+			generate the player's hand count in line 45 of randomtestadventurer.c. I called numHandCards(), which returned 
+			the right results
+			
+			2) Debug Card Effect Error
+				Then, I started to debug the CardEffect. I set up break point in line 774 of dominion.c to check whether the 
+			player can get right number of treature cards. I found that there was no error here. Then, I set another break point
+			in line 778 to check wheter the program reomve non-treature cards from the player's hand. There was also on error here.
+			
+				At that time, I thought it was system error. So, I ran my random tests for thousands of times. However, wrong hand
+			count returned every time. I decided to test more specifically. I reset all those break points and checked the hand count
+			and hand card. I noticed that the card adventurer was still in the player's hand after the player got two treature cards. 
+			This fact occured all the time. I reviewed the dominion.c and found that the CardEffect() did not discard the adventurer
+			card from the player's hand. I added the discard function and the randomtestadventurer passed
+		
+		c. Related Agan's Rules
+				Rule#2 "Make it Fail"
+					I only focus on the CardEffect but ignore other details. I should consider all possible failure factors,
+				
+				Rule#5 "Change One Thing at a Time"
+					I break possible failure cases into different parts to debug (initializeGame () and cardeffect()). This 
+				fact reduces the debug time and make debugging easier more specfic.
+
+				Rule#8 "Get a Fresh View"
+					I did not give up when I cannot localize the bug. I changed my debugging view (from hand count to actul hand
+				cards). This trick helped me to find the bug. 
