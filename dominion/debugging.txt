@@ -11,12 +11,12 @@ Debugging Report with GDB:
 			
 			1. Debug Game Initialization
 				Since only the player's hand count showed error, I set up two break points before the CardEffect fucntion.
-			One is after the function initializeGame() in line 42 of randomtestadventurer.c; another one is after I randomly 
-			generate the player's hand count in line 45 of randomtestadventurer.c. I called numHandCards(), which returned 
+			One is after the function initializeGame() at line 42 of randomtestadventurer.c; another one is after I randomly 
+			generate the player's hand count at line 45 of randomtestadventurer.c. I called numHandCards(), which returned 
 			the right results
 			
 			2. Debug Card Effect
-				Then, I started to debug the CardEffect. I set up break point in line 774 of dominion.c to check whether the 
+				Then, I started to debug the CardEffect. I set up break point at line 774 of dominion.c to check whether the 
 			player can get right number of treature cards. I found that there was no error here. Then, I set another break point
 			in line 778 to check wheter the program reomve non-treature cards from the player's hand. There was also on error here.
 			
@@ -60,7 +60,7 @@ Debugging Report with GDB:
 				Same procedures in section I.b.1. I found no bug here.
 				
 			2. Debugging Card Effect 
-				I went to the cardEffect () 's great hall case to set two break points in line 1017 and line 1019. I inspected the player's 
+				I went to the cardEffect () 's great hall case to set two break points at line 1017 and line 1019. Then, I inspected the player's 
 			hand and hand count for two times. I found that the player did not draw any new card after the card great_hall was played. 
 			Then, I checked my _cardEffect_great_hall function for more details about the the program's behaviors when the card great_hall 
 			was played. I compared the card  effects of great_hall with the parogram actions in _cardEffect_great_hall() line by line. I found 
@@ -94,10 +94,37 @@ Debugging Report with GDB:
 			
 			b. Debugging Procedures
 				I choose the same debugging strategies that I used in debugging the adventurer card. In this debugging session, I used my testdominion.c and 
-				dominion.c as work targets.
+					dominion.c as work targets.
 				
 				1. Debugging Game Initialization
-				Same procedures in section I.b.1. No bug was found. 
+					Same procedures in section I.b.1. No bug was found. 
+				
+				2. Debugging Card Effect
+					I first set break points at line 1070 and line 1072 to compare the player's hand cards. There was one card that was in player's hand before
+				and after the card minion was played. Additionaly, This duplicated card was in same index. At first, I assumed that it was a special case about
+				drawing card from the player's deck. However, it continusly happened for lots of time. So, I narrowed the debugging range to the card effect
+				function, _cardEffect_minion (). I set break points at line 707, line 712, and line 718 of dominion.c to inspect the game object. When I inspect 
+				the game at line 712, I found the bug. Codes between line 707 and line 712 in dominion.c should clear all player's hand cards. However, my dominion.c
+				left one card in the player's hand. This bug was caused by the wrong while loop conditional statement. The correct should be "while(numHandCards(state) > 0)"
+				, but my statement is "while(numHandCards(state) > 1)". 
+					To fix this bug, I just corrected the conditional statement in the while loop.
+					Then, I recompile testdominion.c to inspect the game object with the same debugging break points. Those data was correct. I also asked my group 
+				members to test the card effect of minion with their tests. All test about minion card were passed.
+				
+			c. Related Agan's Rules 
+				Rule#1 "Understand the System"
+				When debugged _cardEffect_minion(), I read the dominion rules about the minion action card. Consequently, I can understand the codes action to debug 
+			accurately.
+				
+				Rule#4 "Divide and Conquer"
+				When I was debugging the card effect, I started from the general CardEffect function in dominion.c and narrowed dwon to case minion. Finially, I reached 
+			the target part of the function _cardEffect_minion () to localize the bug.
+			
+				Rule#7 "Check the plug"
+				When I fixed the bug, I tried both my tester and my partner's tester to make sure the the bug was totally fixed. Trying different testers helped me to avoid
+			special situations that occured in my testers or my partner's testers. 
+			
+			
 				
 
 				
