@@ -3,3 +3,13 @@ Mutation Tests Summary:
 generate different mutations for dominion.c. For each testers, I will generate 10 successful mutations of dominion.c based on the target card 
 because mutation generator will cause compile error in some cases.  
 	
+	For randomtestcard_advuturer:
+		My random test generator killed only two dominion mutations. All of killed mutations was changed in the drawing treasure card phase. The alive
+	mutations are about shuffling deck, remoing non-treasure cards, and disacrding non-treasure cards. 
+		This mutation test result showed that my randdom test generator for the card adventurer was not qualified enough. Additionlly, I found that I 
+	should consider the game as an object when testing this program. Specifically, 
+		
+	For randomtestcard_smithy:
+		
+	For randomtestcard_stewrd
+		
