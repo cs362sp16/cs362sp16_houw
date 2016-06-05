@@ -1,0 +1,5 @@
+Mutation Tests Summary:
+	The mutation testing targets are my random card effect testers. In order to create mutation of dominion.c, I uses an externel pthon script to
+generate different mutations for dominion.c. For each testers, I will generate 10 successful mutations of dominion.c based on the target card 
+because mutation generator will cause compile error in some cases.  
+	
