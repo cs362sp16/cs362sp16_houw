@@ -4,12 +4,27 @@ generate different mutations for dominion.c. For each testers, I will generate 1
 because mutation generator will cause compile error in some cases.  
 	
 	For randomtestcard_advuturer:
-		My random test generator killed only two dominion mutations. All of killed mutations was changed in the drawing treasure card phase. The alive
+	
+		My random test generator for adventurer killed only two dominion mutations. All of killed mutations was changed in the drawing treasure card phase. The survived
 	mutations are about shuffling deck, remoing non-treasure cards, and disacrding non-treasure cards. 
-		This mutation test result showed that my randdom test generator for the card adventurer was not qualified enough. Additionlly, I found that I 
-	should consider the game as an object when testing this program. Specifically, 
+		This mutation test result showed that my random test generator for the card adventurer was not qualified enough. Additionlly, I found that I 
+	should consider the game as an object when testing this program. In this case, I should check all related game contains to fully debug the card effect.
+		In conclusion, to test a card effect requires the random test generators to simulate all posibble situatios for all related attributes in the game
+	object. Correspondinghly, the tester defined assert functions should examine those attributes related to the card and the player. For example, the 
+	tester should check player's hand, hand count, deck, discard cards, played cards, and other realted attributes.
 		
 	For randomtestcard_smithy:
 		
-	For randomtestcard_stewrd
+		My random test generator for smithy killed all dominion mutations. My dominion.c's mutations changes paramethers in both the draw card phase and the discard card
+	phase to crash the random test generator. Fortunately, my random test generators check all related attributes including, player's hand count, deck count, 
+	and discard card count. Consequently, all mutations cannot pass my random tests. 
 		
+	For randomtestcard_stewrd:
+		
+		My random test generator for steward only killed three mutations, which means that this random test generator is not efficient. I checked those two survived 
+	mutations for more details and found that those changes were in if-else statements and the discarding card part. 
+		The first mutation is  "if (choice1  <=  1)" and my random test generator only generates choice numberss (1, 2, 3). Consequently, this mutation survived from random 
+	tests. This fact showed that I did not consider possible failure factors from outside of the game. 
+		The second mutation is "discardCard(choice2, 0 *  currentPlayer, state, 1)". Since my only set my current player as the first player whose index is 0, my random
+	tests cannot detect this bug. This lesson taught me that I should generate a fully random game object.
+		It is better for Programmers to not put their thoughts onto random tests because
