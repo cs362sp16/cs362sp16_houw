@@ -27,4 +27,4 @@ because mutation generator will cause compile error in some cases.
 	tests. This fact showed that I did not consider possible failure factors from outside of the game. 
 		The second mutation is "discardCard(choice2, 0 *  currentPlayer, state, 1)". Since my only set my current player as the first player whose index is 0, my random
 	tests cannot detect this bug. This lesson taught me that I should generate a fully random game object.
-		It is better for Programmers to not put their thoughts onto random tests because
+		It is better for Programmers to not put their thoughts onto random tests to fully test the program objectively.
