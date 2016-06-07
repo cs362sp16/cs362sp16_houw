@@ -1,7 +1,7 @@
 Debugging Report with GDB:
 	I. First Bug (Adventuruer Card section in CardEffect() )
 		a. Found a bug in CardEffect function adventurer section:
-			When I wrote random test of the adventurer card, I only checked the card effect that allows the player to 
+			When I wrote random tests for the adventurer card, I only checked the card effect that allows the player to 
 		reveal two trueature cards from the player deck. To test that, I checked playe's hand count and player's hand 
 		card. The test results showed that the player did not get right hand count.
 		
